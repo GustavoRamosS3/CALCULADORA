@@ -32,7 +32,7 @@ body {
     gap: 2rem;
     padding: 2rem;
     color: #f8fafc;
-    background-color: rgba(120, 65, 105, 0.7);
+    background-color: rgba(50,87,108,0.7);
     border-radius: 8px;
 }
 
@@ -62,7 +62,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(102, 57, 91, 0.7);
+    background-color: rgba(43,83,103,0.7);
     padding: 0.3rem;
     border-radius: 3px;
     margin-top: 3px;
@@ -124,7 +124,7 @@ body {
 
 /* Estilização do botão */
 .input-field button {
-    background-color: #6c3776;
+    background-color: rgba(82,112,123);
     color: #f8fafc;
     border: none;
     padding: 8px 16px;
@@ -133,7 +133,7 @@ body {
 }
 
 .input-field button:hover {
-    background-color: #54315b;
+    background-color: rgba(46,82,105);
 }
 
 @media screen and (max-width: 1024px) {
