@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <title>Calculadora de Gastos</title>
+    <style>
+        body{
+            background-image: url(src/assets/images/fundo.jpg);
+            backdrop-filter: blur(3px);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="src/assets/images/Ilustration.svg" alt="">
+        </section>
+        <section id="calculator">
+            <form id="form">
+                <h1 id="title">
+                    Calculadora de Gastos
+                </h1>
+                <div id="inputs">
+                    <label for="ganhos">GANHOS</label>
+                    <div class="input-field">
+                        <input type="number" id="ganhos" required>
+                        <button type="button" onclick="adicionarGanhos()">Adicionar Ganhos</button>
+                    </div>
+                </div>
+                <div id="inputs">
+                    <label for="gastos">GASTOS</label>
+                    <div class="input-field">
+                        <input type="number" id="gastos" required>
+                        <button type="button" onclick="adicionarGastos()">Adicionar Gastos</button>
+                    </div>                    
+                </div>
+                <div class="resultado">
+                    <div>
+                      <span>Total Ganhos:</span>
+                      <span id="totalGanhos">0</span>
+                    </div>
+                    <div>
+                      <span>Total Gastos:</span>
+                      <span id="totalGastos">0</span>
+                    </div>
+                    <div>
+                      <span>Total Final:</span>
+                      <span id="totalFinal">0</span>
+                    </div>
+                  </div>
+            </form>
+        </section>
+    </main>
+    <script src="src/assets/js/script.js"></script>
+</body>
+</html>
